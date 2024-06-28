@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Webkit (Chrome, Safari, etc.) */
+/* You can also add vendor prefixes for other browsers if needed */
+::-webkit-scrollbar {
+    width: 1px; /* Width of the scrollbar */
+  }
+  
+  /* Track (the area behind the thumb) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+  
+  /* Handle (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the handle */
+    /* border-radius: 6px; Rounded corners of the handle */
+    width: 1px;
+    display: none;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+    width: 5px;
+  }
+  
